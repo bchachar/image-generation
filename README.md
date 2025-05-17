@@ -3,7 +3,8 @@
 This Streamlit web app allows you to generate images using various pre-trained **Stable Diffusion** models and evaluates the generated image against the input prompt using **CLIP similarity scoring**. The generated images, their prompts, model used, and similarity scores are saved in a SQLite database and displayed in a paginated gallery and sidebar history.
 
 ---
-
+![App Screenshot](generated_images/front.png)
+---
 ## 📸 Features
 
 * 🔥 Choose from multiple Stable Diffusion models (via Hugging Face)
@@ -21,8 +22,8 @@ This Streamlit web app allows you to generate images using various pre-trained *
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/stable-diffusion-clip-app.git
-cd stable-diffusion-clip-app
+git clone https://github.com/bchachar/image-generation.git
+cd image-generation
 ```
 
 ### 2. Set Up a Virtual Environment (recommended)
@@ -49,8 +50,6 @@ streamlit run app.py
 ---
 
 ## 📆 Requirements
-
-Make sure your `requirements.txt` looks like this:
 
 ```txt
 streamlit
@@ -94,7 +93,7 @@ We use OpenAI’s CLIP model (`ViT-B/32`) to compute the cosine similarity betwe
 
 ---
 
-## 𞷠️ Clear History
+## Clear History
 
 Use the **"Clear History"** button in the sidebar to remove all stored images and data from the database.
 
