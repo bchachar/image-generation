@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+accelerate
+scipy
+safetensors
+diffusers
+Pillow
+sqlalchemy
